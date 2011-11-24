@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 24/11/2011 14:47:51
+#
+$CMP 24CXX
+D I2C Serial EEPROM
+K EEPROM Serial
+$ENDCMP
+#
+#End Doc Library

@@ -1,6 +1,6 @@
-update=24/11/2011 13:36:22
+update=24/11/2011 14:08:19
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetITyp=0
@@ -77,9 +77,11 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=lib
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -107,8 +109,6 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
-SimCmd=
-UseNetN=0
 LabSize=60
 [eeschema/libraries]
 LibName1=power
@@ -141,5 +141,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-[general]
-version=1
+LibName31=cypress-fx2
+LibName32=modify_from_lib
