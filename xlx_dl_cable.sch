@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 24/11/2011 14:54:36
+EESchema Schematic File Version 2  date 24/11/2011 21:11:00
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,113 +46,319 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 8150 5500 0    60   ~ 0
-CPLD_CLK
 Wire Wire Line
-	8700 5500 8000 5500
+	2350 5200 2200 5200
 Wire Wire Line
-	2350 6000 1700 6000
+	6500 7850 6400 7850
 Wire Wire Line
-	2350 3950 1700 3950
+	5850 7850 5900 7850
+Connection ~ 6650 7100
 Wire Wire Line
-	2350 4200 1700 4200
+	6400 7100 6650 7100
 Wire Wire Line
-	5300 10750 5300 10150
+	6650 7000 6650 7200
 Wire Wire Line
-	1700 4350 2350 4350
-Connection ~ 7800 10450
+	6650 7200 6400 7200
 Wire Wire Line
-	7200 10450 7800 10450
+	1700 4950 1650 4950
 Wire Wire Line
-	7800 10400 7800 10500
-Connection ~ 2250 7800
+	5850 7200 5900 7200
 Wire Wire Line
-	2250 7800 2350 7800
+	5850 7000 5900 7000
+Connection ~ 8750 10650
 Wire Wire Line
-	2250 8050 2250 6800
-Connection ~ 2250 6900
+	8750 10850 8850 10850
 Wire Wire Line
-	2350 6900 2250 6900
-Connection ~ 2250 7100
+	8750 10650 8850 10650
 Wire Wire Line
-	2250 7100 2350 7100
-Connection ~ 2250 7300
+	8850 10450 8750 10450
 Wire Wire Line
-	2250 7300 2350 7300
-Connection ~ 2250 7500
+	10300 10350 10300 10450
 Wire Wire Line
-	2250 7500 2350 7500
-Connection ~ 2250 7700
+	10300 10450 10250 10450
 Wire Wire Line
-	2250 7700 2350 7700
-Connection ~ 2250 2700
+	10250 10750 10650 10750
 Wire Wire Line
-	2250 2450 2250 3700
-Connection ~ 2250 3500
+	2350 4600 1700 4600
+Connection ~ 2250 7900
 Wire Wire Line
-	2250 3500 2350 3500
-Connection ~ 2250 3300
-Wire Wire Line
-	2250 3300 2350 3300
-Connection ~ 2250 3100
-Wire Wire Line
-	2250 3100 2350 3100
-Connection ~ 2250 2900
-Wire Wire Line
-	2250 2900 2350 2900
-Wire Wire Line
-	2250 2700 2350 2700
-Wire Wire Line
-	2250 3700 2350 3700
-Wire Wire Line
-	2250 2800 2350 2800
-Connection ~ 2250 2800
-Wire Wire Line
-	2250 3000 2350 3000
-Connection ~ 2250 3000
-Wire Wire Line
-	2250 3200 2350 3200
-Connection ~ 2250 3200
-Wire Wire Line
-	2250 3400 2350 3400
-Connection ~ 2250 3400
-Wire Wire Line
-	2350 3600 2250 3600
-Connection ~ 2250 3600
-Wire Wire Line
-	2250 7600 2350 7600
-Connection ~ 2250 7600
-Wire Wire Line
-	2250 7400 2350 7400
-Connection ~ 2250 7400
-Wire Wire Line
-	2250 7200 2350 7200
-Connection ~ 2250 7200
-Wire Wire Line
-	2250 7000 2350 7000
-Connection ~ 2250 7000
-Wire Wire Line
-	2250 6800 2350 6800
-Wire Wire Line
-	7800 11000 7800 10900
-Wire Wire Line
-	7800 9850 7800 9900
-Wire Wire Line
-	5700 10150 6300 10150
-Connection ~ 5800 10150
-Connection ~ 5800 10750
-Connection ~ 5300 10450
-Wire Wire Line
-	5150 10450 5300 10450
-Wire Wire Line
-	6300 10750 5700 10750
-Wire Wire Line
-	2350 4100 1700 4100
+	2250 7900 2350 7900
 Wire Wire Line
 	2350 3850 1700 3850
 Wire Wire Line
-	2350 7900 2250 7900
-Connection ~ 2250 7900
+	2350 4100 1700 4100
+Wire Wire Line
+	5700 10750 6300 10750
+Wire Wire Line
+	5150 10450 5300 10450
+Connection ~ 5300 10450
+Connection ~ 5800 10750
+Connection ~ 5800 10150
+Wire Wire Line
+	6300 10150 5700 10150
+Wire Wire Line
+	7800 9850 7800 9900
+Wire Wire Line
+	7800 11000 7800 10900
+Wire Wire Line
+	2350 6800 2250 6800
+Connection ~ 2250 7000
+Wire Wire Line
+	2250 7000 2350 7000
+Connection ~ 2250 7200
+Wire Wire Line
+	2250 7200 2350 7200
+Connection ~ 2250 7400
+Wire Wire Line
+	2250 7400 2350 7400
+Connection ~ 2250 7600
+Wire Wire Line
+	2250 7600 2350 7600
+Connection ~ 2250 3600
+Wire Wire Line
+	2350 3600 2250 3600
+Connection ~ 2250 3400
+Wire Wire Line
+	2250 3400 2350 3400
+Connection ~ 2250 3200
+Wire Wire Line
+	2250 3200 2350 3200
+Connection ~ 2250 3000
+Wire Wire Line
+	2250 3000 2350 3000
+Connection ~ 2250 2800
+Wire Wire Line
+	2250 2800 2350 2800
+Wire Wire Line
+	2350 3700 2250 3700
+Wire Wire Line
+	2250 2700 2350 2700
+Wire Wire Line
+	2250 2900 2350 2900
+Connection ~ 2250 2900
+Wire Wire Line
+	2250 3100 2350 3100
+Connection ~ 2250 3100
+Wire Wire Line
+	2250 3300 2350 3300
+Connection ~ 2250 3300
+Wire Wire Line
+	2250 3500 2350 3500
+Connection ~ 2250 3500
+Wire Wire Line
+	2250 3700 2250 2450
+Connection ~ 2250 2700
+Wire Wire Line
+	2250 7700 2350 7700
+Connection ~ 2250 7700
+Wire Wire Line
+	2250 7500 2350 7500
+Connection ~ 2250 7500
+Wire Wire Line
+	2250 7300 2350 7300
+Connection ~ 2250 7300
+Wire Wire Line
+	2250 7100 2350 7100
+Connection ~ 2250 7100
+Wire Wire Line
+	2350 6900 2250 6900
+Connection ~ 2250 6900
+Wire Wire Line
+	2250 6800 2250 8050
+Wire Wire Line
+	2250 7800 2350 7800
+Connection ~ 2250 7800
+Wire Wire Line
+	7800 10500 7800 10400
+Wire Wire Line
+	7200 10450 7800 10450
+Connection ~ 7800 10450
+Wire Wire Line
+	1700 4350 2350 4350
+Wire Wire Line
+	5300 10150 5300 10750
+Wire Wire Line
+	2350 4200 1700 4200
+Wire Wire Line
+	2350 3950 1700 3950
+Wire Wire Line
+	2350 6000 1700 6000
+Wire Wire Line
+	8700 5500 8000 5500
+Wire Wire Line
+	6850 7300 5850 7300
+Wire Wire Line
+	2350 4700 1700 4700
+Wire Wire Line
+	10250 10850 10650 10850
+Wire Wire Line
+	10400 10550 10250 10550
+Wire Wire Line
+	8850 10550 8750 10550
+Connection ~ 8750 10550
+Wire Wire Line
+	8750 10450 8750 10900
+Connection ~ 8750 10850
+Wire Wire Line
+	5900 7100 5850 7100
+Wire Wire Line
+	1650 5200 1700 5200
+Wire Wire Line
+	6400 7000 6800 7000
+Connection ~ 6650 7000
+Wire Wire Line
+	5900 7950 5850 7950
+Wire Wire Line
+	6400 7950 6550 7950
+Wire Wire Line
+	2200 4950 2350 4950
+$Comp
+L +3.3V #PWR?
+U 1 1 4ECE4231
+P 6500 7850
+F 0 "#PWR?" H 6500 7810 30  0001 C CNN
+F 1 "+3.3V" V 6500 8000 30  0000 C CNN
+	1    6500 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ECE4213
+P 6550 7950
+F 0 "#PWR?" H 6550 7950 30  0001 C CNN
+F 1 "GND" H 6550 7880 30  0001 C CNN
+	1    6550 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ECE41F1
+P 6800 7000
+F 0 "#PWR?" H 6800 7000 30  0001 C CNN
+F 1 "GND" H 6800 6930 30  0001 C CNN
+	1    6800 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ECE41E5
+P 1650 4950
+F 0 "#PWR?" H 1650 4950 30  0001 C CNN
+F 1 "GND" H 1650 4880 30  0001 C CNN
+	1    1650 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ECE41E1
+P 1650 5200
+F 0 "#PWR?" H 1650 5200 30  0001 C CNN
+F 1 "GND" H 1650 5130 30  0001 C CNN
+	1    1650 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECE41A1
+P 1950 5200
+F 0 "R?" V 1900 5400 50  0000 C CNN
+F 1 "10K" V 1950 5200 50  0000 C CNN
+	1    1950 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECE419C
+P 1950 4950
+F 0 "R?" V 1900 5150 50  0000 C CNN
+F 1 "10K" V 1950 4950 50  0000 C CNN
+	1    1950 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECE4184
+P 6150 7950
+F 0 "R?" V 6100 8150 50  0000 C CNN
+F 1 "10K" V 6150 7950 50  0000 C CNN
+	1    6150 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECE4181
+P 6150 7850
+F 0 "R?" V 6100 8050 50  0000 C CNN
+F 1 "10K" V 6150 7850 50  0000 C CNN
+	1    6150 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECE4160
+P 6150 7000
+F 0 "R?" V 6100 7200 50  0000 C CNN
+F 1 "10K" V 6150 7000 50  0000 C CNN
+	1    6150 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECE415C
+P 6150 7100
+F 0 "R?" V 6100 7300 50  0000 C CNN
+F 1 "10K" V 6150 7100 50  0000 C CNN
+	1    6150 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECE411F
+P 6150 7200
+F 0 "R?" V 6100 7400 50  0000 C CNN
+F 1 "10K" V 6150 7200 50  0000 C CNN
+	1    6150 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ECE3F2F
+P 8750 10900
+F 0 "#PWR?" H 8750 10900 30  0001 C CNN
+F 1 "GND" H 8750 10830 30  0001 C CNN
+	1    8750 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4ECE3F1E
+P 10400 10550
+F 0 "#PWR?" H 10400 10550 30  0001 C CNN
+F 1 "GND" H 10400 10480 30  0001 C CNN
+	1    10400 10550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4ECE3E20
+P 10300 10350
+F 0 "#PWR?" H 10300 10310 30  0001 C CNN
+F 1 "+3.3V" H 10300 10460 30  0000 C CNN
+	1    10300 10350
+	1    0    0    -1  
+$EndComp
+Text Label 10400 10850 0    60   ~ 0
+SDA
+Text Label 10400 10750 0    60   ~ 0
+SCL
+Text Label 1800 4700 0    60   ~ 0
+SDA
+Text Label 1800 4600 0    60   ~ 0
+SCL
+Text Label 6350 7300 0    60   ~ 0
+CPLD_CLK
+Text Label 8150 5500 0    60   ~ 0
+CPLD_CLK
 Text Label 1800 6000 0    60   ~ 0
 CPLD_CLK
 Text Label 1800 3850 0    60   ~ 0
