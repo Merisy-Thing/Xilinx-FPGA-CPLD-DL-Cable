@@ -1,4 +1,4 @@
-update=25/11/2011 10:24:41
+update=25/11/2011 15:54:31
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -93,7 +93,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=xlx_dl_cable.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -108,3 +108,4 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=lib/cypress-fx2
 LibName12=lib/xilinx-VQ100
+LibName13=lib/modify_from_lib
