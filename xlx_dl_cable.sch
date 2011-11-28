@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 25/11/2011 17:38:19
+EESchema Schematic File Version 2  date 27/11/2011 12:14:28
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,14 +31,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:cypress-fx2
 LIBS:modify_from_lib
-LIBS:xlx_dl_cable-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "25 nov 2011"
+Date "27 nov 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1133,7 +1132,7 @@ U 1 1 4ECF2B1A
 P 12200 8100
 F 0 "U7" H 12150 8700 60  0000 C CNN
 F 1 "74HC244" H 12200 7500 60  0000 C CNN
-F 2 "SO20L" H 12200 8100 60  0001 C CNN
+F 2 "SSOP20" H 12200 8100 60  0001 C CNN
 	1    12200 8100
 	1    0    0    -1  
 $EndComp
