@@ -1,4 +1,4 @@
-update=27/11/2011 21:30:14
+update=03/12/2011 23:11:51
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -88,7 +88,7 @@ TxtPcbH=600
 TxtModV=600
 TxtModH=600
 TxtModW=120
-VEgarde=20
+VEgarde=30
 DrawLar=60
 EdgeLar=60
 TxtLar=120
